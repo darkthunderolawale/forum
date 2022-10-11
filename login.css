@@ -1,0 +1,162 @@
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+body{
+    text-decoration: none;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+#content a{
+    margin-top: 20px;
+    background-color: rgb(253, 253, 253);
+    /* box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%); */
+    color: rgb(5, 0, 0);
+    padding: 10px 0px;
+    width: 50%;
+    text-align: center;
+    /* border: groove; */
+    outline: outset;
+}
+#content a:hover{
+    background-color: #c035a2;
+
+}
+p{
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    /* border: 1px solid green; */
+}
+table{
+    display: flex;
+}
+.log{
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ align-items: center;
+ margin-top: 100px;
+ /* width: 50%; */
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logins{
+ justify-content: center;
+ display: flex;
+ /* width: 100%; */
+ width: 50%;
+ /* align-items: center; */
+ 
+}
+.login{
+ background-color: #e5e5e5;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ width: 50%;
+ padding: 20px;
+}
+.text-center {
+ display: flex;
+ justify-content: center;
+}
+.btn2{
+ align-items: flex-end;
+}
+.navbar-expand-lg {
+ background-color: black;
+}
+.navbar-brand{
+ color: white;
+}
+
+.btn{
+ border: none;
+ background-color: #c035a2;
+ color: white;
+ width: 100%;
+}
+.btn:hover{
+ background-color: #c035a2;
+ 
+}
+.btn a{
+ color: white;
+
+}
+.btn a:hover{
+ color: white;
+
+}
+.btn_p{
+ margin-bottom: 0rem !important;
+}
+.btn_p:hover{
+ background-color: none;
+}
+
+.btn4:hover{
+ background-color: none;
+}
+.topics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.create a{
+    color: black;
+}
+.create a:hover{
+    color: #c035a2;
+
+}
+.create_topic a:hover{
+    color: #c035a2;
+
+}
+.create_topic{
+    text-align: center;
+}
+.comment{
+    text-align: start;
+}
+.comment a{
+color: #c035a2;
+;
+}
+.create_topic a{
+    color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: #e5e5e5;
+
+}
+.boxes{
+    background-color: white;
+    font-size: 17px;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+.title{
+    font-size: 20px;
+    font-weight: 900;
+}

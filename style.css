@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: none;
+}
+
+.btn5{
+    width: 100%;
+    background: #c035a2 !important;
+    border: #c035a2 !important;
+padding: 5px;
+}
+.form-outline{
+    width: 100%;
+}
+
+.form-control{
+    width: 100%;
+}
+.container-fluid{
+    width:80%;
+}
+
+.create{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.boxes{
+    padding-top: 20px;
+    width: 70%;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+/* .text-center{
+    display: flex;
+} */
